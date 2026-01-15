@@ -11,7 +11,10 @@ export async function connectDB() {
     const uri = process.env.MONGODB_URI
 
     if (!uri) {
-      throw new Error("MONGODB_URI is not defined")
+      throw new Error(
+        "MONGODB_URI is not defined in environment variables. " +
+        "Please set it in your .env file or Vercel project settings."
+      )
     }
 
     await mongoose.connect(uri)
