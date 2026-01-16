@@ -3,31 +3,31 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Desert-inspired color palette */
-  --background: oklch(0.98 0.01 70);
-  --foreground: oklch(0.2 0.05 40);
+  /* Premium desert-inspired color palette */
+  --background: oklch(0.99 0.01 70);
+  --foreground: oklch(0.15 0.08 30);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.2 0.05 40);
+  --card-foreground: oklch(0.15 0.08 30);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.2 0.05 40);
-  --primary: oklch(0.6 0.15 50);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.75 0.1 45);
-  --secondary-foreground: oklch(0.2 0.05 40);
-  --muted: oklch(0.92 0.02 70);
-  --muted-foreground: oklch(0.55 0.05 40);
-  --accent: oklch(0.55 0.12 30);
-  --accent-foreground: oklch(0.98 0 0);
+  --popover-foreground: oklch(0.15 0.08 30);
+  --primary: oklch(0.55 0.18 45);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.8 0.12 50);
+  --secondary-foreground: oklch(0.15 0.08 30);
+  --muted: oklch(0.93 0.02 70);
+  --muted-foreground: oklch(0.52 0.08 45);
+  --accent: oklch(0.65 0.15 25);
+  --accent-foreground: oklch(0.99 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.92 0.02 70);
-  --input: oklch(0.95 0.01 70);
-  --ring: oklch(0.6 0.15 50);
-  --chart-1: oklch(0.6 0.15 50);
-  --chart-2: oklch(0.55 0.12 30);
-  --chart-3: oklch(0.75 0.1 45);
-  --chart-4: oklch(0.7 0.08 60);
-  --chart-5: oklch(0.65 0.12 40);
+  --border: oklch(0.93 0.02 70);
+  --input: oklch(0.96 0.01 70);
+  --ring: oklch(0.55 0.18 45);
+  --chart-1: oklch(0.55 0.18 45);
+  --chart-2: oklch(0.65 0.15 25);
+  --chart-3: oklch(0.8 0.12 50);
+  --chart-4: oklch(0.75 0.1 60);
+  --chart-5: oklch(0.68 0.14 40);
   --radius: 0.625rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
