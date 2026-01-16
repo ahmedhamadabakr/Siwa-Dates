@@ -51,12 +51,6 @@ export function Landing() {
             <h1 className="text-2xl font-bold text-primary">تمر سيوة</h1>
           </div>
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#products" className="text-foreground hover:text-primary transition">
-              المنتجات
-            </a>
-            <a href="#about" className="text-foreground hover:text-primary transition">
-              عن سيوة
-            </a>
             <a href="/admin" className="text-foreground hover:text-primary transition">
               لوحة التحكم
             </a>
