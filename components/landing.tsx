@@ -387,7 +387,7 @@ export function Landing() {
               </svg>
             </a>
             <a
-              href="https://instagram.com/siwadates.1612002"
+              href="https://www.instagram.com/siwa_dates"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all hover:scale-110"
